@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="font-sans text-gray-800">
+    <div className="flex flex-col items-center justify-center  "> 
       <Hero />
       <Consultoria />
       <Etapas />

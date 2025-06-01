@@ -1,12 +1,12 @@
 export default function Hero() {
   return (
     
-    <section className="bg-white ">
+    <section className="py-3 ">
         
-      <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 ">
+      <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 grid-cols-1 gap-0 md:gap-10 ">
         
-        <div className="flex flex-col justify-between items-start py-4">
-            <header className="bg-white  md:max-w-2xl w-screen" >
+        <div className="flex flex-col justify-between items-start py-4 text-center md:text-left">
+            <header className="bg-white  md:max-w-2xl w-4/4" >
              <div className=" py-4 flex flex-col md:flex-row items-center  ">
                 <div className="flex items-center gap-2">
                     <img src="/img/logo1.svg" alt="Logo Tirar Visto" className="h-6 w-auto" />
@@ -23,7 +23,7 @@ export default function Hero() {
           <h1 className="sm:text-5xl font-bold leading-tight text-3xl  ">
             Tire seu Visto conosco e<br />não tenha nenhuma surpresa negativa!
           </h1>
-          <div className="grid grid-cols-2 items-center gap-4 mb-8">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-4 mb-8">
             <div>
 
           <p className="text-gray-600 mb-6">
@@ -33,9 +33,9 @@ export default function Hero() {
               Saiba mais
             </button>
             </div>
-            <div className="flex  flex-col gap-2">
+            <div className="flex  flex-col p-0 gap-2 mx-auto  md:items-start">
               <img src="/img/videoBruna.svg" alt="Bruna" className="w-48 h-28 " />
-              <div className="grid grid-cols-2 items-center gap-2 ">
+              <div className="grid  grid-flow-col items-center gap-10">
                 <div>
 
                 <p className="text-sm font-semibold">Conheça a Bruna</p>
