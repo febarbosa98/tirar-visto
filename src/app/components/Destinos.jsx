@@ -14,7 +14,7 @@ export default function DestinationsSection() {
   const secondRow = destinations.slice(3, 6);
 
   return (
-    <section className="py-20 ">
+    <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto  w-80 md:w-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <div className="inline-block bg-yellow-400 text-black px-4 py-2 rounded-full text-sm font-semibold mb-4">

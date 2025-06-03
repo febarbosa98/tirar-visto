@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     
-    <section className="py-3 ">
+    <section className="py-3 bg-white">
         
       <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 grid-cols-1 gap-0 md:gap-10 ">
         
